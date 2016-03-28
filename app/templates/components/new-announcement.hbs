@@ -1,0 +1,22 @@
+{{#if addNewAnnouncement}}
+  <h1>New Announcement</h1>
+  <div>
+  <form>
+    <div class="form-group">
+      <label for="news">Announcement</label>
+      {{input value=news id="news"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image">Image URL</label>
+      {{input value=image id="image"}}
+    </div>
+
+    <button {{action 'keep1'}}>Save</button>
+  </form>
+  </div>
+ {{else}}
+    <button {{action 'announcementFormShow'}}>New Announcement</button>
+{{/if}}
+
+{{yield}}
