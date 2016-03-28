@@ -1,0 +1,10 @@
+<h1>View Important Messages</h1>
+
+<ul>
+  {{#each model as |announcement|}}
+    {{announcement-tile announcement=announcement}}
+  {{/each}}
+</ul>
+
+
+{{outlet}}

@@ -1,0 +1,11 @@
+{ "announcements": [{
+    "news": "Free room!",
+    "image": "https://image.freepik.com/free-vector/room-vector-free-download_23-2147489634.jpg"
+  }, {
+    "news": "Portland is covered in ice!",
+    "image": "http://www.deqonline.com/blog/wp-content/uploads/Blue-tips-cubes-with-ice-cubes.jpg"
+  }, {
+    "news": "Warning: Californians",
+    "image": "https://media3.giphy.com/media/DdydyuuG3bQti/200_s.gif"
+  }]
+}
