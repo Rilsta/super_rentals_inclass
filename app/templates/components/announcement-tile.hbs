@@ -1,6 +1,7 @@
 <li>
   {{announcement.news}}
-  {{announcement.image}}
+  <img src={{announcement.image}} alt="" />
+  <button {{action 'delete' announcement}}>Bye Felicia</button>
 </li>
 
 {{yield}}
